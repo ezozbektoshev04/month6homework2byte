@@ -1,0 +1,90 @@
+.articles {
+  padding-bottom: 130px;
+  .articles-content {
+    .d1 {
+      padding-bottom: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      column-gap: 20px;
+      .p1 {
+        color: #211f54;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px; /* 120.8% */
+      }
+      .article-btns {
+        padding-bottom: 70px;
+        display: flex;
+        align-items: center;
+        column-gap: 28px;
+        .btn6 {
+          border-radius: 14px;
+          background: #0075ff;
+          color: #fff;
+          text-align: center;
+          padding: 26px 38px;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 20px; /* 111.111% */
+          &:hover {
+            border-radius: 14px;
+            border: 1px solid #eff0f6;
+            background: #fff;
+            box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+            color: #211f54;
+          }
+        }
+      }
+    }
+    .articles-cards {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      column-gap: 20px;
+      .articles-card {
+        position: relative;
+        .card-content {
+          left: 30px;
+          top: 82%;
+          padding: 50px;
+          width: 536px;
+          position: absolute;
+          border-radius: 24px;
+          border: 1px solid #eff0f6;
+          background: #fff;
+          box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+          .p2 {
+            color: #211f54;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 34.008px; /* 141.7% */
+          }
+          .p3 {
+            color: #6e7191;
+            padding-top: 17px;
+            // padding-bottom: 10px;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30.006px;
+          }
+          .d10 {
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+            .d11 {
+              width: 50px;
+              height: 50px;
+              background: #0075ff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

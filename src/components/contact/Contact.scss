@@ -1,0 +1,158 @@
+.contact {
+  background: #f7f9fc;
+  margin-top: 250px;
+  padding-top: 134px;
+  padding-bottom: 111px;
+  .contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 10px;
+    flex-wrap: wrap;
+    .d1 {
+      .p1 {
+        color: #211f54;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 57.984px; /* 120.8% */
+      }
+      .p2 {
+        max-width: 484px;
+        color: #6e7191;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+      }
+      .d2 {
+        padding-bottom: 30px;
+        display: flex;
+        align-items: center;
+        column-gap: 16px;
+        .d3 {
+          .p3 {
+            color: #6e7191;
+            padding-bottom: 4px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px; /* 112.5% */
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+          }
+          .p4 {
+            color: #211f54;
+            font-size: 28px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 36.008px; /* 128.6% */
+          }
+        }
+      }
+      .line {
+        display: block;
+        width: 486.61px;
+        height: 1px;
+        background: #dcddeb;
+      }
+      .p5 {
+        color: #211f54;
+        padding-top: 55px;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36.008px; /* 128.6% */
+      }
+      .p6 {
+        padding-top: 9px;
+        padding-bottom: 30px;
+        color: #6e7191;
+        max-width: 445.6px;
+        font-size: 21px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30.006px; /* 142.886% */
+      }
+      .btn7 {
+        width: 256px;
+        color: #211f54;
+        text-align: center;
+        padding: 26px 38.5px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 19.998px; /* 111.1% */
+        border-radius: 14px;
+        border: 1px solid #eff0f6;
+        background: #fff;
+        box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+      }
+    }
+    .d10 {
+      border-radius: 16px;
+      border: 1px solid #eff0f6;
+      background: #fff;
+      box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+      padding: 85px 61px;
+      form {
+        .fieldTwo {
+          padding-bottom: 32px;
+          display: flex;
+          align-items: center;
+          column-gap: 33px;
+          .field1 {
+            display: flex;
+            flex-direction: column;
+            row-gap: 12px;
+            label {
+              color: #211f54;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 30.006px; /* 166.7% */
+            }
+            .input1 {
+              padding: 5px 20px;
+              width: 259px;
+              height: 72px;
+              border-radius: 16px;
+              border: 1px solid #eff0f6;
+              background: #fff;
+              box-shadow: 0px 2px 12px 0px rgba(20, 20, 43, 0.08);
+            }
+          }
+        }
+        .field {
+          display: flex;
+          flex-direction: column;
+          row-gap: 12px;
+          padding-bottom: 42px;
+          #note {
+            resize: none;
+            outline: none;
+            width: 551px;
+            height: 144px;
+            border-radius: 22px;
+            border: 1px solid #eff0f6;
+            background: #fff;
+            box-shadow: 0px 2px 7px 0px rgba(20, 20, 43, 0.08);
+          }
+        }
+        .btn8 {
+          padding: 26px 30px;
+          border-radius: 14px;
+          background: #0075ff;
+          color: #fff;
+          text-align: center;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 19.998px; /* 111.1% */
+        }
+      }
+    }
+  }
+}
